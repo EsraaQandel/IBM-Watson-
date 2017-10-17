@@ -41,3 +41,8 @@ open the file on your `CMD` and then type `watson_OCR.py` or `watson_classifier.
 
 [watson_classifier.py]: <https://drive.google.com/file/d/0B1OEOyhnLZ48S1ZlVFBTT29qeHM/view?usp=sharing>
 [watson_OCR.py]: <https://drive.google.com/file/d/0B1OEOyhnLZ48Vm9WbG43b0FtdE0/view?usp=sharing>
+
+
+## Issues 
+
+We are still trying to figure out how to make OCR extract Arabic text from images.

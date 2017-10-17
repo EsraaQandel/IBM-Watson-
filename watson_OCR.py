@@ -12,7 +12,7 @@ instance = vr(api_key='ff644e192cbf2fcd509165d85a7b053f360ca6a1', version='2016-
 
 # select an image (local or url) with text in it. Recognizing text:
 
-img = instance.recognize_text(images_url='https://pbs.twimg.com/media/DB3j8jVV0AIWHjI.jpg')
+img = instance.recognize_text(images_url='https://pbs.twimg.com/media/ClFro9UWkAAvVxX.jpg')
 
 # you can run this code in the interpreter. If you request >>> img it will output a json formatted result
 # going down the json tree, you can retrieve the text in the image with the following command:

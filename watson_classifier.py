@@ -1,9 +1,3 @@
-# Visual Recognition with IBM Watson - Image Classification
-# Requirements 1: IBM Bluemix Account (free) - https://console.ng.bluemix.net/
-# Requirements 2: watson_developer_cloud module python module
-# Once registered, login to your account, go to Services -> Watson and create a Visual Recognition instance
-# Once you have your VR instance created, you will use its API credentials in your python code
-
 from watson_developer_cloud import VisualRecognitionV3 as vr
 import webbrowser
 import time
@@ -39,8 +33,5 @@ print "To know more about the topic in the images. We will redirect you to a Wik
 time.sleep(20)
 search_key_word = img['images'][0]['classifiers'][0]['classes'][0]['class']
 webbrowser.open('en.wikipedia.org/w/index.php?search=' + search_key_word)
-   
-# I posted a demo of this here: http://bit.ly/2gZg4D9
-# If you need help with Watson and Visual Recognition, send me a message. 
-# the video I followed to achive the task -> https://www.youtube.com/watch?v=GFjYqzdWIJk
-# the repo which has the code -> https://github.com/CristiVlad25/py-scripts-other/blob/master/vrwatson1.py
+
+
